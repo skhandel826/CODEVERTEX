@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Computer Science Engineering student with Java and Web Development skills.">
+    <title>Portfolio - CS Engineering Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-green-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-3xl font-bold">Sakshi Khandel Portfolio</h1>
+            <div>
+                <a href="#about" class="text-white mx-4">About</a>
+                <a href="#skills" class="text-white mx-4">Skills</a>
+                <a href="#projects" class="text-white mx-4">Projects</a>
+                <a href="#contact" class="text-white mx-4">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto mt-12 p-6">
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="text-lg">
+            Hello Everyone! I'm Sakshi Nilesh Khandel, a 3rd year Computer Science Engineering student with a passion for Technical knowledge.I'm currently focused on expanding my skills in both Soft Skill and Technical skill.Aim To crack Placement and Take good job.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Technical Skills" class="bg-gray-200 py-12 mt-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Technical Skills</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
+                <li class="p-4 bg-white rounded shadow">Java</li>
+                <li class="p-4 bg-white rounded shadow">Python</li>
+                <li class="p-4 bg-white rounded shadow">DSA</li>
+                <li class="p-4 bg-white rounded shadow">HTML</li>
+                <li class="p-4 bg-white rounded shadow">CSS</li>
+                <li class="p-4 bg-white rounded shadow">JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Core subject" class="bg-gray-200 py-12 mt-12"></section>
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Core subject</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
+                <li class="p-4 bg-white rounded shadow">DBMS</li>
+                <li class="p-4 bg-white rounded shadow">OOPs</li>
+                <li class="p-4 bg-white rounded shadow">OS</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="Internship" class="bg-gray-200 py-12 mt-12"></section>
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Internship</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
+                <li class="p-4 bg-white rounded shadow">InternPe(AI/ML)</li>
+               
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="ACTIVITY" class="bg-gray-200 py-12 mt-12"></section>
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">ACTIVITY</h2>
+        <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
+            <li class="p-4 bg-white rounded shadow">Participate in SIH 2024</li>
+            <li class="p-4 bg-white rounded shadow">Participate in Technical event</li>
+            
+        </ul>
+    </div>
+</section>
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto mt-12 p-6">
+        <h2 class="text-3xl font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Project 1 -->
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="text-2xl font-bold mb-2">Project 1: calculator </h3><br>
+                <p class="mb-4">
+                    This calculator website is built using HTML for structure, Tailwind CSS for styling, and JavaScript for functionality and calculations.
+                </p>
+                <a href="https://github.com/johndoe/project1" class="text-blue-600 underline">View on GitHub</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="text-2xl font-bold mb-2">Project 2: landing page </h3>
+                <p class="mb-4">
+                    
+                </p>
+                <a href="https://github.com/johndoe/project2" class="text-blue-600 underline">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-200 py-12 mt-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+            <form id="contactForm" class="bg-white p-6 rounded shadow">
+                <div class="mb-4">
+                    <label class="block text-lg font-bold mb-2" for="name">Name</label>
+                    <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-lg font-bold mb-2" for="email">Email</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-lg font-bold mb-2" for="message">Message</label>
+                    <textarea id="message" name="message" class="w-full p-2 border rounded" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-green-600 text-white text-center py-4 mt-12">
+        &copy;  Computer Science Engineering Student Portfolio
+    </footer>
